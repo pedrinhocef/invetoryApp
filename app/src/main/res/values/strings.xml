@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">InventoryApp</string>
+    <string name="price_title">Preço</string>
+    <string name="quantity_title">Quantidade</string>
+    <string name="image">Imagem</string>
+    <string name="product_name">Produto</string>
+    <string name="image_title">Imagem do Produto</string>
+    <string name="empty_list_hint">Estoque está vazio!</string>
+    <string name="action_insert_dummy_data">Inserir Dados Falsos</string>
+    <string name="action_delete_all_entries">Deletar tudo!</string>
+    <string name="sale_button">Venda</string>
+    <string name="editor_activity_title_new">Add new item</string>
+    <string name="editor_activity_title_edit_item">Editor Item</string>
+    <string name="editor_insert_stock">Stock saved</string>
+    <string name="editor_update_stock">Falha ao atualizar stock</string>
+    <string name="editor_update_saved">Stock Atualizado</string>
+    <string name="action_save">Salvar</string>
+    <string name="menu_order_item">Enviar Pedido</string>
+    <string name="menu_delete_item">Deletar item</string>
+    <string name="menu_delete_all_data">Deletar Tudo</string>
+    <string name="unsaved_changes_dialog_msg">Descartar alterações feitas ?</string>
+    <string name="discard">Descartar</string>
+    <string name="keep_editing">Continuar Edição</string>
+    <string name="delete_dialog_msg">Deleta o produto?</string>
+    <string name="delete">Deletar</string>
+    <string name="cancel">Cancela</string>
+    <string name="editor_delete_stock_failed">Erro ao deleter produto</string>
+    <string name="editor_delete_stock_successful">Produto deletado</string>
+    <string name="order_message">Enviar pedido por email</string>
+    <string name="email">E-mail</string>
+    <string name="email_order">pedrinhocef@gmail.com</string>
+    <string name="sell_product_failed">Falha ao vender produto</string>
+    <string name="new_order">Novo pedido de compra</string>
+    <string name="msg_order">Por favor nos envie mais deste produto</string>
+</resources>
