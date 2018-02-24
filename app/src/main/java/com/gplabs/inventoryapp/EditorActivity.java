@@ -87,13 +87,13 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
         }
 
 
-        mNameEditText = (EditText) findViewById(R.id.product_name_edit);
-        mPriceEditeText = (EditText) findViewById(R.id.price_edit);
-        mQuantityEditText = (EditText) findViewById(R.id.quantity_edit);
-        mImageView = (ImageView) findViewById(R.id.image_view);
-        mImageBtn = (Button) findViewById(R.id.select_image);
-        mDecreaseQuantity = (ImageButton) findViewById(R.id.decrease_quantity);
-        mIncreaseQuantity = (ImageButton) findViewById(R.id.increase_quantity);
+        mNameEditText = findViewById(R.id.product_name_edit);
+        mPriceEditeText = findViewById(R.id.price_edit);
+        mQuantityEditText = findViewById(R.id.quantity_edit);
+        mImageView = findViewById(R.id.image_view);
+        mImageBtn = findViewById(R.id.select_image);
+        mDecreaseQuantity = findViewById(R.id.decrease_quantity);
+        mIncreaseQuantity = findViewById(R.id.increase_quantity);
 
 
         mNameEditText.setOnTouchListener(mTouchListener);

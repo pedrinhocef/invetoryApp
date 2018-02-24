@@ -39,10 +39,10 @@ public class StockAdapter extends CursorAdapter{
     @Override
     public void bindView(View view, final Context context, final Cursor cursor) {
         mContext = context;
-        TextView nameTextView = (TextView) view.findViewById(R.id.product_name);
-        TextView priceTextView = (TextView) view.findViewById(price);
-        TextView quantityView = (TextView) view.findViewById(quantity);
-        ImageView imageView = (ImageView) view.findViewById(R.id.image_view);
+        TextView nameTextView = view.findViewById(R.id.product_name);
+        TextView priceTextView = view.findViewById(price);
+        TextView quantityView = view.findViewById(quantity);
+        ImageView imageView = view.findViewById(R.id.image_view);
 
 
 
@@ -58,7 +58,7 @@ public class StockAdapter extends CursorAdapter{
         imageView.setImageURI(Uri.parse(cursor.getString(cursor.getColumnIndex(StockContract.StockEntry.COLUMN_IMAGE))));
 
 
-        ImageView sellButton = (ImageView) view.findViewById(R.id.sale);
+        ImageView sellButton = view.findViewById(R.id.sale);
         sellButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

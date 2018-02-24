@@ -31,5 +31,5 @@
     <string name="email_order">pedrinhocef@gmail.com</string>
     <string name="sell_product_failed">Falha ao vender produto</string>
     <string name="new_order">Novo pedido de compra</string>
-    <string name="msg_order">Por favor nos envie mais deste produto</string>
+    <string name="msg_order">Por favor nos envie mais deste produto </string>
 </resources>
