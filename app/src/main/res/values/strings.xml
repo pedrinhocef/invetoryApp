@@ -32,4 +32,5 @@
     <string name="sell_product_failed">Falha ao vender produto</string>
     <string name="new_order">Novo pedido de compra</string>
     <string name="msg_order">Por favor nos envie mais deste produto </string>
+    <string name="quantity_zero">0</string>
 </resources>
