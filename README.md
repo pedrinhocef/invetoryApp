@@ -1,4 +1,4 @@
-# App de invetário simples
+# App de inventário simples
 App desenvolvido como projeto final Nanodegree Android Basic.
 # Desenvolvido com
 - Java
