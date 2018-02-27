@@ -33,4 +33,6 @@
     <string name="new_order">Novo pedido de compra</string>
     <string name="msg_order">Por favor nos envie mais deste produto </string>
     <string name="quantity_zero">0</string>
+    <string name="description_image">Imagem salva no estoque</string>
+    <string name="description_image_sale">Imagem do botao de venda do produto</string>
 </resources>
