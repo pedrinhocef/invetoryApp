@@ -4,10 +4,10 @@ App desenvolvido como projeto final Nanodegree Android Basic.
 - Java
 - content provider 
 - SQLite 
-- sistema de permissão em tempo de execução.
+- sistema de permissão em tempo de execução
 # Link do curso
 https://br.udacity.com/course/android-basics-nanodegree-by-google--nd803
-# Play Store
+# Publicação Play Store
 https://play.google.com/store/apps/details?id=com.gplabs.inventoryapp
 # Certificado de conclusão
 https://graduation.udacity.com/confirm/KUGVH4AA
