@@ -1,81 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:cardCornerRadius="14dp">
-
-    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="16dp"
-        android:orientation="horizontal">
+    tools:layout_editor_absoluteY="81dp">
 
 
-        <ImageView
-            android:id="@+id/image_view"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:layout_weight="2" />
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019" />
 
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="6"
-            android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/product_name"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:paddingLeft="16dp"
-                android:text=""
-                android:textSize="24sp" />
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/image_view"
+        app:layout_constraintTop_toTopOf="@+id/image_view"
+        tools:text="Doce" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/sale"
-                    android:layout_width="0dp"
-                    android:layout_height="30dp"
-                    android:layout_gravity="bottom"
-                    android:layout_weight="1"
-                    android:focusable="false"
-                    android:focusableInTouchMode="false"
-                    android:src="@drawable/button_sale"
-                    android:text="@string/sale_button" />
+    <ImageView
+        android:id="@+id/sale"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:src="@drawable/button_sale"
+        android:text="@string/sale_button"
+        app:layout_constraintBottom_toBottomOf="@+id/image_view"
+        app:layout_constraintStart_toEndOf="@+id/image_view"
+        app:layout_constraintTop_toBottomOf="@+id/product_name" />
 
-                <TextView
-                    android:id="@+id/price"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="2"
-                    android:gravity="bottom"
-                    android:paddingLeft="16dp"
-                    android:text=""
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textSize="16sp"
-                    tools:text="100" />
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/sale"
+        app:layout_constraintTop_toTopOf="@+id/sale"
+        tools:text="100" />
 
-                <TextView
-                    android:id="@+id/quantity"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="2"
-                    android:gravity="end|center_vertical"
-                    android:text=""
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="36sp"
-                    tools:text="3" />
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/price"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="3" />
 
-            </LinearLayout>
-
-        </LinearLayout>
-
-    </LinearLayout>
-</android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>
